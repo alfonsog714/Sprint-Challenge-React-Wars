@@ -1,0 +1,42 @@
+/* font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto Condensed', sans-serif; */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  /* border: 1px solid red; */
+  background: #d0d3d8;
+  min-width: 30%;
+  margin: 20px 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card ul {
+  margin: 0 auto;
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+.card ul li {
+  padding: 0.2rem;
+}
+
+.card h3 {
+  margin: 15px auto;
+  font-family: "Press Start 2P", cursive;
+}
+
+.card h4,
+li {
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.card li span {
+  font-weight: bold;
+}
